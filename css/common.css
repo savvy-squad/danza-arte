@@ -19,12 +19,13 @@ header .container li{
 }
 
 header .container li{
-	margin: 0 20px
+	margin: 20px 20px;
+
 }
 
   /* ----------footer------------*/
 footer .letras{
-	background-color: #0B2161;
+	background-color: #12284F;
 	color:white;
 	height: 50px;
 	padding: 20px 0 10px 10px;

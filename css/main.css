@@ -1,15 +1,134 @@
+*{
+	outine: 1px solid red;}
+.col-md-6{
+	padding: 0 !important
+
+}
+/* ----------hero------------*/
+
 .hero{
 	background-image: url(../img/dance_1.jpg) ;
-	height: 300px
+	height: 480px;
+	padding: 60px 0 0 130px
 }
 
 .hero .studio{
 	width: 200px;
-	font-size: 40px;
-	color: white;
-	font-family: 
-}
+	font-size: 65px;
+	color: #BEC0C3;
+	}
+
 .hero .parrafo{
-	width: 200px;
+	width: 210px;
+	color: #797B7F;
+	margin-bottom: 30px
+}
+.hero a{
+	color:#797B7F;
+	display: inline-block;
+	background-color: #060E1B;
+	padding: 6px 22px;
+	border-radius: 4px;
+}
+
+/* ----------oferta------------*/
+
+.oferta{
+	height: 400px;
+	background-image: url(../img/halftone.png) ;
+	text-align: center;
+}
+.oferta h2{
+	position: relative;
+	top: 15%;
+	width: 55%;
+	text-align: center;
+	left: 22.5%;
+
+}
+.oferta img{
+	position: relative;
+	width: 130px;
+	top: 50%
+}
+.oferta .clases{
+	background:#12284F;
+	width: 300px;
+	color: white;
+	padding: 15px 30px;
+	text-align: center;
+	border-radius: 5px;
+	position: relative;
+	left: 40%
+}
+.clases a{
+	display: inline-block;
+	text-decoration: none;
+}
+/* ----------instructores------------*/
+.instructores{
+	height: 360px;
+	overflow: hidden;
+}
+.instructores .container{
+	margin: 0;
+	width: 100%;
+	height: 100%
+
+}
+.instructores img{
+	
+	width: 100%;
+
+}
+.instructores .row{
+	height: 360px
+}
+
+.instructores label{
+	position:relative;
+	z-index: 5
+	
+}
+
+/* ----------frase------------------*/
+.frase{
+	height: 300px;
+	background: url(../img/textura_2.jpg);
+
+}
+.frase h2{
+	position: relative;
+	top: 40%;
+	width:45%;
+	text-align: center;
+	left: 25%
+}
+
+/* ------------ubicacion----------------*/
+
+.ubicacion{
+	background-color:#12284F;
+	color: #797B7F;
+	height: 500px
+
+}
+.ubicacion h3{
 	color: white
+}
+
+.ubicacion p,h3{
+	position: relative;
+	width: 450px;
+	top: 22%;
+	left: 5%
+}
+
+.ubicacion .mapa{
+	position: relative;
+	left:  700px;
+	width: 600px;
+	top: -130px
+	
+
 }
