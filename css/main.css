@@ -1,1 +1,15 @@
-/* Inserta tu codigo aqui */
+.hero{
+	background-image: url(../img/dance_1.jpg) ;
+	height: 300px
+}
+
+.hero .studio{
+	width: 200px;
+	font-size: 40px;
+	color: white;
+	font-family: 
+}
+.hero .parrafo{
+	width: 200px;
+	color: white
+}
