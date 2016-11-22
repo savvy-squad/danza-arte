@@ -31,6 +31,11 @@ header .container li{
  footer{
  	height: 550px
  } 
+ .formulario{
+ 	position: relative;
+ 	top: 25px;
+ 	left: 50px
+ }
  footer .row{
  	height: 100%
  }
