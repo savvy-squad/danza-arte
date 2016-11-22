@@ -54,7 +54,8 @@ footer .row img{
 }
 
 .formulario h3{
-	color: #12284F
+	font-weight: 900;
+	color: #12284F;
 	margin-bottom: 20px;
 }
 
@@ -62,22 +63,37 @@ footer .contac{
 	height: 100%
 }
 
+.formulario{
+	padding: 20px;
+}
+
 .formulario div{
-    border: 1px solid #7b7070;
+    border: 2px solid #BDBDBD;
     margin: 2% auto;
 }
 
 .formulario input{
 	width: 90% ;
 	border: 0px;
+	color: #BDBDBD;
+	padding: 5px;
 }
 
 [class*="icon-"]:before{
 	font-size: 20px;
 }
 
-footer input.lapiz{
+.icon-lapiz{
 	height: 150px;
+	padding: 5px;
+}
+
+.icon-nombre{
+	padding: 10px 5px 5px 5px;
+}
+
+.icon-mail{
+	padding: 10px 5px 5px 5px;
 }
 
 .enviar{
@@ -87,14 +103,12 @@ footer input.lapiz{
 	height: 50px;
 	border-radius: 4px;
 	text-align: center;
+	border: 0;
 }
 
 .enviar a{
 	font-size: 25px;
 	padding: 7px;
-}
-
-footer .enviar a{
 	display: inline-block;
 	text-decoration: none;
 	color: white;
@@ -103,4 +117,5 @@ footer .enviar a{
 .icon-copyright{
 	margin-bottom: 0;
 	margin-left: 30px;
+	padding: 5px;
 }
