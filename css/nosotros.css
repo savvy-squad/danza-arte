@@ -34,6 +34,8 @@
 .list-instructores li{
     list-style: none;
     } 
+
+
 .instructor {
     outline: 1px red solid;
     width: 250px;
