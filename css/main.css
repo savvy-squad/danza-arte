@@ -37,13 +37,12 @@
 	height: 400px;
 	background-image: url(../img/halftone.png) ;
 	text-align: center;
+	padding: 10px
 }
 .oferta h2{
-	position: relative;
-	top: 15%;
-	width: 55%;
 	text-align: center;
-	left: 22.5%;
+	width: 700px;
+	margin: 100px auto
 
 }
 .oferta img{
@@ -100,15 +99,13 @@
 .frase{
 	height: 300px;
 	background: url(../img/textura_2.jpg);
-	
+	padding: 10px
 
 }
 .frase h2{
-	position: relative;
-	top: 40%;
-	width:45%;
 	text-align: center;
-	left: 25%
+	width: 700px;
+	margin: 100px auto
 }
 
 /* ------------ubicacion----------------*/
