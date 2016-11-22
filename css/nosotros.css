@@ -34,20 +34,13 @@
 .list-instructores li{
     list-style: none;
     } 
-<<<<<<< HEAD
 
-div [class*="img-"]{
-     width: 100%;
-    height: 50%;
-    background: center contain;
-    
-=======
+
 .instructor {
     outline: 1px red solid;
     width: 250px;
     height: 200px;
     background-size: cover;
->>>>>>> 7f8e3a2c7850b0bd0d5f8cc5149936661f0d5562
 }
 
 .img-1{
