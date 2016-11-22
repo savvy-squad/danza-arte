@@ -1,19 +1,18 @@
-
-.container{
-	margin: 0;
-	padding: 0
-}
-.blog h2{
-	text-align: center;
-	width: 100%
+.hero{
+    background: rgba(219, 229, 239, 0.92);
+    text-align: center;
 }
 
-
-.blog .imagen{
-	width: 250px;
-	margin: 0
+.tabla{
+    background: rgba(176, 196, 216, 0.94);
+    margin: 5% 0;
 }
-.blog img{
-	width: 100%;
 
+.tabla td img{
+    width: 100%;
+    margin-left: 0;
+}
+
+.tabla h3{
+    font-weight: bolder;
 }
