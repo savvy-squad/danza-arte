@@ -1,1 +1,19 @@
-/* Inserta tu codigo aqui */
+
+.container{
+	margin: 0;
+	padding: 0
+}
+.blog h2{
+	text-align: center;
+	width: 100%
+}
+
+
+.blog .imagen{
+	width: 250px;
+	margin: 0
+}
+.blog img{
+	width: 100%;
+
+}
