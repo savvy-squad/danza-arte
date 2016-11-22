@@ -47,22 +47,23 @@ footer .contac{
 	height: 100%
 }
 
-footer input{
-	margin:5px 0;
+.formulario div{
+    border: 1px solid #7b7070;
+    margin: 2% auto;
+}
+
+.formulario input{
 	width: 90% ;
-	height: 30px;
-	padding-left: 20px
+	border: 0px;
 }
 [class*="icon-"]:before{
-	
-	font-size: 20px
+	font-size: 20px;
+    }
 
-}
 footer input.lapiz{
 	height: 150px;
-	position: relative;
-	top: 0
-}
+   }
+
 footer div.enviar{
 	background-color: #12284F;
 	color:white;
@@ -76,5 +77,4 @@ footer .enviar a{
 	display: inline-block;
 	text-decoration: none;
 	color: white
-	
-}
+	}

@@ -25,6 +25,7 @@
     border:  0.5px solid #867f7f;    
 }
 /* fin de pilares*/
+
 .instructores{
     text-align: center;
     margin: 1%;  
@@ -33,14 +34,21 @@
 
 .list-instructores li{
     list-style: none;
+    margin-top: 5%;
+    text-align: left;
     } 
 
+.list-instructores li h5{
+    font-weight: bolder;
+    } 
+.list-instructores li p{
+    padding-right: 10%;
+    } 
 
 .instructor {
-    outline: 1px red solid;
     width: 250px;
     height: 200px;
-    background-size: cover;
+    background-size: cover;    
 }
 
 .img-1{
@@ -68,11 +76,19 @@
     background-image: url(../img/profesor_15.jpg);
 }
 
+/* fin pilares */
 
+.frase{
+    background: url(../img/cubes.png);
+    text-align: center;
+    color: #867f7f;
+   }
 
+.frase h2{
+   padding: 5% 0;
+}
 
-
-
+/* fin */
 
 
 
