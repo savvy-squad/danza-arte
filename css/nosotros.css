@@ -34,10 +34,12 @@
 .list-instructores li{
     list-style: none;
     } 
-.list-instructores .img-{
-    width: 100%;
+
+div [class*="img-"]{
+     width: 100%;
     height: 50%;
-    background: center contain; 
+    background: center contain;
+    
 }
 
 .img-1{
