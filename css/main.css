@@ -1,5 +1,5 @@
-*{
-	outine: 1px solid red;}
+*{	
+	outlie: 1px solid red;}
 .col-md-6{
 	padding: 0 !important
 
@@ -85,16 +85,12 @@
 	height: 360px
 }
 
-.instructores label{
-	position:relative;
-	z-index: 5
-	
-}
 
 /* ----------frase------------------*/
 .frase{
 	height: 300px;
 	background: url(../img/textura_2.jpg);
+	
 
 }
 .frase h2{
