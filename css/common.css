@@ -19,23 +19,58 @@ header .container li{
 }
 
 header .container li{
-	margin: 0 20px
+	margin: 20px 20px;
+
 }
 
   /* ----------footer------------*/
 footer .letras{
-	background-color: #0B2161;
+	background-color: #12284F;
 	color:white;
 	height: 50px;
 	padding: 20px 0 10px 10px;
 
 }
-footer .contactanos{
-		height: 400px
-	
-}
-.contactanos img{
+footer .row img{
 	position: relative;
 	z-index: -2;
 	float: right;
+	width: 50%
+}
+footer .row h3{
+	color: #12284F
+}
+footer .contac{
+	height: 100%
+}
+
+footer input{
+	margin:5px 0;
+	width: 90% ;
+	height: 30px;
+	padding-left: 20px
+}
+[class*="icon-"]:before{
+	
+	font-size: 20px
+
+}
+footer input.lapiz{
+	height: 150px;
+	position: relative;
+	top: 0
+}
+footer div.enviar{
+	background-color: #12284F;
+	color:white;
+	padding: 5px 30px;
+	width: 90%;
+	height: 50px;
+	border-radius: 4px;
+	text-align: center;
+}
+footer .enviar a{
+	display: inline-block;
+	text-decoration: none;
+	
 }
