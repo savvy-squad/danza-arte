@@ -3,16 +3,19 @@
 header{
 	color:#0B2161;
 }
+
 header h1{
 	text-align: center;
 	font-size: 20px
 }
+
 header .container ul{
 	list-style: none;
 	margin: 0;
 	padding: 0;
 	text-align: center;
 }
+
 header .container li{
 	display: inline-block;
 	
@@ -29,20 +32,24 @@ footer .letras{
 	color:white;
 	height: 50px;
 	padding: 20px 0 10px 10px;
-
 }
+
 footer p{
 	margin-left: 50px
 }
+
 footer .row img{
 	position: relative;
 	z-index: -2;
 	float: right;
 	width: 50%
 }
-footer .row h3{
+
+.formulario h3{
 	color: #12284F
+	margin-bottom: 20px;
 }
+
 footer .contac{
 	height: 100%
 }
@@ -56,25 +63,36 @@ footer .contac{
 	width: 90% ;
 	border: 0px;
 }
+
 [class*="icon-"]:before{
 	font-size: 20px;
-    }
+}
 
 footer input.lapiz{
 	height: 150px;
-   }
+}
 
-footer div.enviar{
+.enviar{
 	background-color: #12284F;
 	color:white;
-	padding: 5px 30px;
-	width: 90%;
+	width: 100%;
 	height: 50px;
 	border-radius: 4px;
 	text-align: center;
 }
+
+.enviar a{
+	font-size: 25px;
+	padding: 7px;
+}
+
 footer .enviar a{
 	display: inline-block;
 	text-decoration: none;
 	color: white;
-	}
+}
+
+.icon-copyright{
+	margin-bottom: 0;
+	margin-left: 30px;
+}
