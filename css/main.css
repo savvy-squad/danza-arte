@@ -42,18 +42,21 @@
 .oferta h2{
 	text-align: center;
 	width: 700px;
-	margin: 100px auto
+	margin: 90px auto;
+	margin-bottom: 0
+
+	
 
 }
 .oferta img{
 	position: relative;
 	width: 130px;
-	top: 50%
+	height: 100px;
+	top: 40%
 }
 .oferta .clases{
 	background:#12284F;
 	width: 300px;
-	color: white;
 	padding: 15px 30px;
 	text-align: center;
 	border-radius: 5px;
@@ -63,11 +66,13 @@
 .clases a{
 	display: inline-block;
 	text-decoration: none;
+	color:white;
 }
 /* ----------instructores------------*/
 .instructores{
 	height: 360px;
 	overflow: hidden;
+	border:3px solid #12284F;
 }
 .instructores .container{
 	margin: 0;
@@ -87,13 +92,18 @@
 .instructores div.instructor{
 	background-color: #12284F;
 	color:white;
-	padding: 5px 30px;
-	width: 40%;
+	padding: 12px 30px;
+	width: 300px;
 	height: 50px;
 	border-radius: 4px;
 	text-align: center;
-	z-index: 4;
-	position: relative;
+	position: absolute;
+	top:1303px;
+	left:40%;}
+
+.instructores .instructor a{
+	text-decoration: none;
+	color: white
 }
 /* ----------frase------------------*/
 .frase{

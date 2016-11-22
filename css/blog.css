@@ -1,19 +1,35 @@
-
-.container{
-	margin: 0;
-	padding: 0
-}
-.blog h2{
-	text-align: center;
-	width: 100%
+.hero{
+    background: #E6E6E6;
+    text-align: center;
 }
 
+.tabla{
+    background: rgba(180, 185, 198, 0.85);
+    margin: 5% 0;
+    }
 
-.blog .imagen{
-	width: 250px;
-	margin: 0
-}
-.blog img{
-	width: 100%;
+.tabla td img{
+    width: 100%;
+    }
 
+.tabla td{
+    padding: 0;
+    margin: 0;
 }
+
+.tabla h3{
+    font-weight: bolder;
+}
+
+.tabla .buttom{
+    background: #4d4d91;
+    width: 200px;
+    padding: 1% 2%;
+    text-align: center;
+    margin: 3%;
+    }
+
+.tabla .buttom a{
+    text-decoration: none;
+    color: white;
+    }
