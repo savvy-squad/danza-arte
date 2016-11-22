@@ -31,6 +31,9 @@ footer .letras{
 	padding: 20px 0 10px 10px;
 
 }
+footer p{
+	margin-left: 50px
+}
 footer .row img{
 	position: relative;
 	z-index: -2;
@@ -72,5 +75,6 @@ footer div.enviar{
 footer .enviar a{
 	display: inline-block;
 	text-decoration: none;
+	color: white
 	
 }
