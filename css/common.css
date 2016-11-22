@@ -27,6 +27,13 @@ header .container li{
 }
 
   /* ----------footer------------*/
+
+ footer{
+ 	height: 550px
+ } 
+ footer .row{
+ 	height: 100%
+ }
 footer .letras{
 	background-color: #12284F;
 	color:white;
@@ -39,10 +46,11 @@ footer p{
 }
 
 footer .row img{
-	position: relative;
-	z-index: -2;
-	float: right;
-	width: 50%
+	position: absolute;
+	display: inline-block;
+	z-index: -5;
+	right: 80px;
+	width: 800px
 }
 
 .formulario h3{
