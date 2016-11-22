@@ -85,7 +85,17 @@
 	height: 360px
 }
 
-
+.instructores div.instructor{
+	background-color: #12284F;
+	color:white;
+	padding: 5px 30px;
+	width: 40%;
+	height: 50px;
+	border-radius: 4px;
+	text-align: center;
+	z-index: 4;
+	position: relative;
+}
 /* ----------frase------------------*/
 .frase{
 	height: 300px;
